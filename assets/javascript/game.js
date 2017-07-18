@@ -42,8 +42,8 @@ $(document).ready(function(){
       crystal2 = Math.floor(Math.random() * 12) + 1;
       crystal3 = Math.floor(Math.random() * 12) + 1;
       crystal4 = Math.floor(Math.random() * 12) + 1;
-      $("#playernumber").html("0");  
+      $("#playernumber").html("0"); 
+          console.log(playerNumber);
     }
-    console.log(playerNumber);
   });
 });
