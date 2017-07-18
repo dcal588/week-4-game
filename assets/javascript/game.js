@@ -15,14 +15,7 @@ $(document).ready(function(){
   $("#playernumber").html("0");
 
   $(".crystal").on('click', function(){
-    var crystalVal = $(this).html();
-    playerNumbers.push(crystalVal);
-    var crystalTotal = 0;
-    for (var i = 0; i < playerNumbers.length; i++) {
-      crystalTotal += playerNumbers[i] << 0;
-    }
-    $("#playernumber").html(crystalTotal);
-    if (crystalTotal === computerNumber) {
+        if (crystalTotal === computerNumber) {
       wins++
       $("#wins").html(wins);
       computerNumber = Math.floor(Math.random() * 102) + 19;
@@ -45,5 +38,13 @@ $(document).ready(function(){
       $("#playernumber").html("0"); 
           console.log(playerNumber);
     }
+    var crystalVal = $(this).html();
+    playerNumbers.push(crystalVal);
+    var crystalTotal = 0;
+    for (var i = 0; i < playerNumbers.length; i++) {
+      crystalTotal += playerNumbers[i] << 0;
+    }
+    $("#playernumber").html(crystalTotal);
+
   });
 });
