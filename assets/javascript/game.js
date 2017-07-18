@@ -37,13 +37,13 @@ $(document).ready(function(){
       losses++
       $("#losses").html(losses);
       computerNumber = Math.floor(Math.random() * 102) + 19;
-      var playerNumber = 0;
+      playerNumber = 0;
       crystal1 = Math.floor(Math.random() * 12) + 1;
       crystal2 = Math.floor(Math.random() * 12) + 1;
       crystal3 = Math.floor(Math.random() * 12) + 1;
       crystal4 = Math.floor(Math.random() * 12) + 1;
-      $("#playernumber").html("0");
-      
+      $("#playernumber").html("0");  
     }
+    console.log(playerNumber);
   });
 });
