@@ -31,6 +31,11 @@ $(document).ready(function(){
       crystal2 = Math.floor(Math.random() * 12) + 1;
       crystal3 = Math.floor(Math.random() * 12) + 1;
       crystal4 = Math.floor(Math.random() * 12) + 1;
+      $("#computernumberbox").html(computerNumber);
+      $("#crystalonebox").html(crystal1);
+      $("#crystaltwobox").html(crystal2);
+      $("#crystalthreebox").html(crystal3);
+      $("#crystalfourbox").html(crystal4);
       $("#playernumber").html("0");
     }
     if (crystalTotal > computerNumber) {
@@ -42,6 +47,12 @@ $(document).ready(function(){
       crystal2 = Math.floor(Math.random() * 12) + 1;
       crystal3 = Math.floor(Math.random() * 12) + 1;
       crystal4 = Math.floor(Math.random() * 12) + 1;
+      $("#computernumberbox").html(computerNumber);
+      $("#crystalonebox").html(crystal1);
+      $("#crystaltwobox").html(crystal2);
+      $("#crystalthreebox").html(crystal3);
+      $("#crystalfourbox").html(crystal4);
+      $("#playernumber").html("0");
       $("#playernumber").html("0"); 
     }
   });
