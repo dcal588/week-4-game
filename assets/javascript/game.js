@@ -26,7 +26,7 @@ $(document).ready(function(){
       wins++
       $("#wins").html(wins);
       computerNumber = Math.floor(Math.random() * 102) + 19;
-      playerNumber = 0;
+      crystalTotal = 0;
       crystal1 = Math.floor(Math.random() * 12) + 1;
       crystal2 = Math.floor(Math.random() * 12) + 1;
       crystal3 = Math.floor(Math.random() * 12) + 1;
@@ -37,7 +37,7 @@ $(document).ready(function(){
       losses++
       $("#losses").html(losses);
       computerNumber = Math.floor(Math.random() * 102) + 19;
-      playerNumber = 0;
+      crystalTotal = 0;
       crystal1 = Math.floor(Math.random() * 12) + 1;
       crystal2 = Math.floor(Math.random() * 12) + 1;
       crystal3 = Math.floor(Math.random() * 12) + 1;
