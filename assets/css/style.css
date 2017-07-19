@@ -1,0 +1,44 @@
+#crystalonebox {
+ 	display:inherit;
+	height:200px;
+	width:200px;
+	background-image: url("../images/crystal1.png")!important;
+	background-size: 200px 200px;
+  background-repeat: no-repeat;
+  float:left;
+  color: rgba(0, 0, 0, 0);
+  font-size:1px;
+}
+#crystaltwobox {
+ 	display:inherit;
+	height:200px;
+	width:200px;
+	background-image: url("../images/crystal2.png")!important;
+	background-size: 200px 200px;
+  background-repeat: no-repeat;
+  float:left;
+  color: rgba(0, 0, 0, 0);
+  font-size:1px;
+}
+#crystalthreebox {
+ 	display:inherit;
+	height:200px;
+	width:200px;
+	background-image: url("../images/crystal3.png")!important;
+	background-size: 200px 200px;
+  background-repeat: no-repeat;
+  float:left;
+  color: rgba(0, 0, 0, 0);
+  font-size:1px;
+}
+#crystalfourbox {
+ 	display:inherit;
+	height:200px;
+	width:200px;
+	background-image: url("../images/crystal4.png")!important;
+	background-size: 200px 200px;
+  background-repeat: no-repeat;
+  float:left;
+  color: rgba(0, 0, 0, 0);
+  font-size:1px;
+}
